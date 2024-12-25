@@ -1,0 +1,9 @@
+{
+    "username": "QA Faruk 25",
+    "password": "12345678",
+    "duplicateUsername": "existingUser",
+    "validPassword": "12345678",
+    "invalidPassword":"pass",
+    "randomUsername": "random135"
+  }
+  

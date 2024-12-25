@@ -1,0 +1,7 @@
+Bug 1: Contact Form Error Message Missing
+Description: The contact form does not show error messages for invalid inputs.
+Steps to Reproduce:
+Navigate to the Contact page.
+Submit the form without filling in any fields.
+Expected Behavior: Error message prompts the user to fill required fields.
+Actual Behavior: Form submission fails silently with no feedback.

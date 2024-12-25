@@ -1,0 +1,64 @@
+{
+	"id": "a16436bc-442f-4b30-bc9e-53218ebd1e32",
+	"name": "API Testing - QA",
+	"timestamp": "2024-12-24T15:40:49.317Z",
+	"collection_id": "39672701-61477278-4b73-45c9-ab24-cd7542ebffd6",
+	"folder_id": 0,
+	"environment_id": "39672701-69fa7352-1761-465b-8b3f-19161f38db08",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-24T15:40:48.099Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8dc36514-6f32-49cf-8d61-ea3d444f44cd",
+			"name": "Create user - Data-Driven Testing",
+			"url": "https://reqres.in/api/users",
+			"time": 365,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response includes correct name and job": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 2,
+					"fail": 0
+				},
+				"Response includes correct name and job": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				459,
+				365
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response includes correct name and job": true
+				},
+				{
+					"Status code is 201": true,
+					"Response includes correct name and job": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 824,
+	"collection": {
+		"requests": [
+			{
+				"id": "8dc36514-6f32-49cf-8d61-ea3d444f44cd",
+				"method": "POST"
+			}
+		]
+	}
+}

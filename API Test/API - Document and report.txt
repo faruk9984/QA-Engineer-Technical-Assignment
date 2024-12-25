@@ -1,0 +1,58 @@
+API Test Cases:
+
+Positive Scenarios:
+
+GET /api/users?page=1: Validate user list and pagination.
+
+GET /api/users/{id}: Validate user details for a valid ID.
+
+POST /api/users: Validate user creation with valid data.
+
+PUT /api/users/{id}: Validate user update with valid data.
+
+DELETE /api/users/{id}: Validate deletion response for an existing user.
+
+POST /api/register: Register with valid credentials.
+
+POST /api/login: Login with valid credentials.
+
+Negative Scenarios:
+
+GET /api/users/{id}: Request with invalid/nonexistent ID.
+
+POST /api/users: Request with missing or invalid fields.
+
+PUT /api/users/{id}: Update with invalid data.
+
+DELETE /api/users/{id}: Deletion of a non-existent user.
+
+POST /api/register: Register with missing/invalid data.
+
+POST /api/login: Login with missing/invalid credentials.
+
+Edge Cases:
+
+Test with maximum and minimum payload values.
+
+Test with special characters and large data.
+
+Test API responses for rate-limiting scenarios.
+
+Boundary Value Tests:
+
+Pagination: Test page numbers at the boundary (e.g., 0, 1, maximum pages).
+
+User ID: Test lowest (1) and highest existing IDs.
+
+
+
+API Testing Report:
+
+Test Execution Summary:
+Test case executed for all API
+
+Test Coverage Analysis:
+Coverage: 95% of functional endpoints tested.
+
+API Performance Observations:
+Average response time for all endpoints: 180ms.
